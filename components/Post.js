@@ -209,9 +209,10 @@ const el =(item)=> {
             <Text style={{paddingLeft:'1%'}}>10k</Text>
             <AntDesign name='right' color='black' size={24}  style={{paddingLeft:'2%'}}/>  
             </View> 
-            <AntDesign name='like2' color='grey' size={24}  style={{paddingLeft:width/1.5}}/>
+            <AntDesign name='like2' color='grey' size={24}  style={{paddingLeft:width/2}}/>
             </View>  
             <ScrollView
+      
             style={{marginBottom:'40%'}}> 
         {this.state.comments.map((item,index)=>{
  return(
